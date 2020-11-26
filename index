@@ -1,0 +1,65 @@
+<!DOCTYPE hmtl>
+<html lang="ES">
+
+	<head>
+		<meta charset="UTF-8">
+		<title> Le Wagon - Web Develop Sprint </title>
+
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans&display=swap" rel="stylesheet">
+		<!-- Llamado en CSS:
+	 	font-family: 'Noto Serif', serif;
+	 	font-family: 'Open Sans', sans-serif;
+	 	-->
+		
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+
+
+	<body>
+
+		<!-- slide section -->
+
+		<div class="banner-wrap">
+			<img src="images/lewagon-logo.png">
+			<h1> Change your life, learn to code</h1>
+
+			<p class="banner-text">  Le Wagon brings technical skills to creative people  </p> 
+			<a href="http://www.lewagon.com" class="button" target="_blank" > Apply Now! </a>
+		</div>
+
+		<!-- cards section -->
+
+
+		<h2> Discover our Campuses</h2>
+
+		<div class="cards-wrap">
+			<div class="cards-container">
+				<div class="card"> 
+					<img src="images/shanghai.jpg">
+					<h3>Shanghai</h3>
+					<p>Learn to code with us in Shangai.</p>
+				</div>
+
+				<div class="card"> 
+					<img src="images/london.jpg">
+					<h3>London</h3>
+					<p>Learn to code with us in London.</p>
+				</div>
+
+				<div class="card"> 
+					<img src="images/paris.jpg">
+					<h3>Paris</h3>
+					<p>Learn to code with us in Paris.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer section -->
+
+		<footer>
+			<p> Website made with 🤯 at Le Wagon<br> by Ivana Ka </p>
+		</footer>
+
+	</body>
+
+</html>
