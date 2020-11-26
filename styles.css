@@ -1,0 +1,125 @@
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-color: #232323;
+  font-size: 16px;
+  margin: 0;
+}
+
+.banner-wrap {
+	background-image: url('../images/banner-slide.jpeg');
+	background-position: center;
+	text-align: center;
+	padding: 150px 0;
+
+/* url(images/"banner-slide.jpeg") no funciona */
+/* url('https://source.unsplash.com/vXInUOv1n84') */
+/* 	BLUR:
+-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+ /*    filter: blur(5px); */ 
+
+}
+
+
+h1 {
+	color: #fff;
+	font-family: 'Noto Serif';
+	text-shadow: 0pc 0px 4px gray;
+	font-size: 45px;
+	margin: 0
+	font-weight: bold;
+}
+
+.banner-wrap img {
+	width: 70px;
+	margin-top: 5px;
+}
+
+
+.banner-wrap p {
+	color: #fff;
+	font-size: 20px;
+	font-style: bold;
+	text-shadow: 0pc 0px 4px gray;
+	margin: 0px 0px 50px 0px;
+}
+
+
+.button { 
+	background-color: #fb0014;
+	color: white;
+	padding: 15px 40px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	border: none;
+	transition:	0.3s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+h2 {
+	text-align: center;
+	font-family: 'Noto Serif';
+  	font-weight: 600; 
+  	padding: 0 auto;
+  	margin-top: 55px;
+  	margin-bottom: 25px;
+}
+
+
+h3 {
+	text-align: left;
+	font-family: 'Noto Serif';
+  	font-weight: 600;
+  	font-size: 15px;
+  	color: #fb0014;
+}
+
+
+.cards-wrap {
+	width: 990px;
+	margin: 30px auto;
+}
+
+
+.cards-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 45pxv;
+}
+
+
+.card {
+	background: white;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 30px;
+	margin: 25px;
+}
+
+
+.card img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+footer {
+	background: #606060;
+	color: white;
+	left: 0;
+	padding-top: 45px;
+	padding-bottom: 65px;
+
+}
+
+footer p {
+	margin: 0px;
+	text-align: center;
+}
+
+
+
